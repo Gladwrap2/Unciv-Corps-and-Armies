@@ -1,0 +1,798 @@
+[
+	{
+		"name": "Rifleman Corps",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 44,
+		"cost": 562,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Great War Infantry Corps",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Norwegian Ski Infantry Corps",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman Corps",
+		"uniqueTo": "Denmark",
+		"movement": 2,
+		"strength": 44,
+		"cost": 562,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Great War Infantry Corps",
+		"promotions": ["[Norwegian Ski Infantry] ability"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Carolean Corps",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman Corps",
+		"uniqueTo": "Sweden",
+		"movement": 2,
+		"strength": 44,
+		"cost": 562,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Great War Infantry Corps",
+		"promotions": ["March"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mehal Sefari Corps",
+		"unitType": "Gunpowder",
+		"replaces": "Rifleman Corps",
+		"uniqueTo": "Ethiopia",
+		"movement": 2,
+		"strength": 44,
+		"cost": 500,
+		"requiredTech": "Rifling",
+		"obsoleteTech": "Replaceable Parts",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Great War Infantry Corps",
+		"promotions": ["Drill I","Home Sweet Home"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Gatling Gun Corps",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 40,
+		"rangedStrength": 40,
+		"cost": 562,
+		"requiredTech": "Industrialization",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Machine Gun Corps",
+		"obsoleteTech": "Ballistics",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Cavalry Corps",
+		"unitType": "Mounted",
+		"movement": 4,
+		"strength": 44,
+		"cost": 562,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+    "requiredBuilding": "Military Academy"
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship Corps",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Cossack Corps",
+		"unitType": "Mounted",
+		"replaces": "Cavalry Corps",
+		"uniqueTo": "Russia",
+		"movement": 4,
+		"strength": 44,
+		"cost": 562,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+    "requiredBuilding": "Military Academy"
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship Corps",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"promotions": ["[Cossack] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Hussar Corps",
+		"unitType": "Mounted",
+		"replaces": "Cavalry Corps",
+		"uniqueTo": "Austria",
+		"movement": 5,
+		"strength": 44,
+		"cost": 562,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+    "requiredBuilding": "Military Academy"
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship Corps",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
+			"[+1] Sight"],
+		"promotions": ["[Hussar] ability"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "Artillery Corps",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 31,
+		"rangedStrength": 38,
+		"range": 3,
+		"cost": 800,
+		"requiredTech": "Dynamite",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Rocket Artillery Corps",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Artillery Army",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 38,
+		"rangedStrength": 45,
+		"range": 3,
+		"cost": 1040,
+		"requiredTech": "Dynamite",
+    "requiredBuilding": "Military Base"
+		"upgradesTo": "Rocket Artillery Army",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Great War Infantry Corps",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 60,
+		"cost": 800,
+		"requiredTech": "Replaceable Parts",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Infantry Corps",
+		"obsoleteTech": "Plastics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Foreign Legion Corps",
+		"unitType": "Gunpowder",
+		"replaces": "Great War Infantry Corps",
+		"uniqueTo": "France",
+		"movement": 2,
+		"strength": 60,
+		"cost": 800,
+		"requiredTech": "Replaceable Parts",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Infantry Corps",
+		"obsoleteTech": "Plastics",
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Infantry Corps",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 80,
+		"cost": 937,
+		"requiredTech": "Plastics",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Mechanized Infantry Corps",
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Machine Gun Corps",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 70,
+		"rangedStrength": 70,
+		"cost": 875,
+		"requiredTech": "Ballistics",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Mechanized Infantry Corps",
+		"attackSound": "machinegun"
+		// Upgrades to Bazooka in BNW
+	},
+	{
+		"name": "Anti-Aircraft Gun Corps",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"interceptRange": 2,
+		"strength": 60,
+		"cost": 937,
+		"requiredTech": "Ballistics",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Mobile SAM Corps",
+		"obsoleteTech": "Rocketry",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Landship Corps",
+		"unitType": "Armored",
+		"movement": 4,
+		"strength": 70,
+		"cost": 875,
+		"requiredTech": "Combustion",
+    "requiredBuilding": "Military Academy"
+		"requiredResource": "Oil",
+		"upgradesTo": "Tank Corps",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Marine Corps",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 75,
+		"cost": 1000,
+		"requiredTech": "Pharmaceuticals",
+    "requiredBuilding": "Military Academy"
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Marine Army",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 82,
+		"cost": 1300,
+		"requiredTech": "Pharmaceuticals",
+    "requiredBuilding": "Military Base"
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Tank Corps",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 80,
+		"cost": 937,
+		"requiredTech": "Combined Arms",
+    "requiredBuilding": "Military Academy"
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor Corps",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Tank Army",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 87,
+		"cost": 1218,
+		"requiredTech": "Combined Arms",
+    "requiredBuilding": "Military Base"
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor Army",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Panzer Corps",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Tank Corps",
+		"movement": 6,
+		"strength": 90,
+		"cost": 937,
+		"requiredTech": "Combined Arms",
+    "requiredBuilding": "Military Academy"
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor Corps",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+		//German unique unit, stronger than Tank
+	},
+	{
+		"name": "Panzer Army",
+		"unitType": "Armored",
+		"uniqueTo": "Germany",
+		"replaces": "Tank Army",
+		"movement": 6,
+		"strength": 97,
+		"cost": 1218,
+		"requiredTech": "Combined Arms",
+    "requiredBuilding": "Military Base"
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor Army",
+		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"attackSound": "tankshot"
+		//German unique unit, stronger than Tank
+	},
+	{
+		"name": "Anti-Tank Gun Corps",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 60,
+		"cost": 750,
+		"requiredTech": "Combined Arms",
+    "requiredBuilding": "Military Academy"
+		"upgradesTo": "Helicopter Gunship Corps",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Anti-Tank Gun Army",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 67,
+		"cost": 975,
+		"requiredTech": "Combined Arms",
+    "requiredBuilding": "Military Base"
+		"upgradesTo": "Helicopter Gunship Army",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Helicopter Gunship Corps",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 70,
+		"cost": 1062,
+		"requiredTech": "Computers",
+    "requiredBuilding": "Military Academy"
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
+		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
+		"name": "Helicopter Gunship Army",
+		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 77,
+		"cost": 1381,
+		"requiredTech": "Computers",
+    "requiredBuilding": "Military Base"
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rocket Artillery Corps",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 55,
+		"rangedStrength": 70,
+		"range": 3,
+		"cost": 1062,
+		"requiredTech": "Rocketry",
+    "requiredBuilding": "Military Academy"
+		"requiredResource": "Aluminum",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Rocket Artillery Army",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 62,
+		"rangedStrength": 77,
+		"range": 3,
+		"cost": 1381,
+		"requiredTech": "Rocketry",
+    "requiredBuilding": "Military Base"
+		"requiredResource": "Aluminum",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Mobile SAM Corps",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 2,
+		"strength": 75,
+		"cost": 1062,
+		"requiredTech": "Rocketry",
+    "requiredBuilding": "Military Academy"
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Mobile SAM Army",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"interceptRange": 2,
+		"strength": 82,
+		"cost": 1381,
+		"requiredTech": "Rocketry",
+    "requiredBuilding": "Military Base"
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Mechanized Infantry Corps",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 100,
+		"cost": 937,
+		"requiredTech": "Mobile Tactics",
+    "requiredBuilding": "Military Academy"
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Mechanized Infantry Army",
+		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 107,
+		"cost": 1218,
+		"requiredTech": "Mobile Tactics",
+    "requiredBuilding": "Military Base"
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Modern Armor Corps",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 110,
+		"cost": 1062,
+		"requiredTech": "Lasers",
+    "requiredBuilding": "Military Academy"
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Modern Armor Army",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 117,
+		"cost": 1381,
+		"requiredTech": "Lasers",
+    "requiredBuilding": "Military Base"
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+
+  // Naval Units
+
+	{
+		"name": "Caravel Fleet",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 30,
+		"cost": 300,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad Fleet",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Caravel Armada",
+		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 37,
+		"cost": 390,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad Armada",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Turtle Ship Fleet",
+		"unitType": "Melee Water",
+		"replaces": "Caravel Fleet",
+		"uniqueTo": "Korea",
+		"movement": 4,
+		"strength": 46,
+		"cost": 300,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad Fleet",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Cannot enter ocean tiles"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Turtle Ship Armada",
+		"unitType": "Melee Water",
+		"replaces": "Caravel Armada",
+		"uniqueTo": "Korea",
+		"movement": 4,
+		"strength": 53,
+		"cost": 390,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "Ironclad Armada",
+		"obsoleteTech": "Combustion",
+		"uniques": ["Cannot enter ocean tiles"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Privateer Fleet",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 35,
+		"cost": 375,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer Fleet",
+		"promotions": ["Coastal Raider I", "[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Privateer Armada",
+		"unitType": "Melee Water",
+		"movement": 5,
+		"strength": 42,
+		"cost": 487,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer Armada",
+		"promotions": ["Coastal Raider I", "[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Sea Beggar Fleet",
+		"unitType": "Melee Water",
+		"replaces": "Privateer Fleet",
+		"uniqueTo": "The Netherlands",
+		"movement": 5,
+		"strength": 35,
+		"cost": 375,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer Fleet",
+		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply", "[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Sea Beggar Armada",
+		"unitType": "Melee Water",
+		"replaces": "Privateer Armada",
+		"uniqueTo": "The Netherlands",
+		"movement": 5,
+		"strength": 42,
+		"cost": 487,
+		"requiredTech": "Navigation",
+		"upgradesTo": "Destroyer Armada",
+		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply", "[Privateer] ability"],
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Frigate Fleet",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 35,
+		"rangedStrength": 38,
+		"cost": 462,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship Fleet",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Frigate Armada",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 42,
+		"rangedStrength": 45,
+		"cost": 601,
+		"requiredResource": "Iron",
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship Armada",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Ship of the Line Fleet",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate Fleet",
+		"uniqueTo": "England",
+		"movement": 5,
+		"strength": 40,
+		"rangedStrength": 45,
+		"cost": 462,
+		"requiredResource": "Iron",
+		"uniques": ["[+1] Sight"],
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship Fleet",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Ship of the Line Armada",
+		"unitType": "Ranged Water",
+		"replaces": "Frigate Armada",
+		"uniqueTo": "England",
+		"movement": 5,
+		"strength": 47,
+		"rangedStrength": 52,
+		"cost": 601,
+		"requiredResource": "Iron",
+		"uniques": ["[+1] Sight"],
+		"requiredTech": "Navigation",
+		"obsoleteTech": "Electronics",
+		"upgradesTo": "Battleship Armada",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Ironclad Fleet",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 55,
+		"cost": 625,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer Fleet",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Ironclad Armada",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 62,
+		"cost": 812,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer Armada",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Submarine Fleet",
+		"unitType": "Submarine",
+		"movement": 5,
+		"strength": 45,
+		"rangedStrength": 70,
+		"cost": 812,
+		"requiredTech": "Refrigeration",
+		"upgradesTo": "Nuclear Submarine Fleet",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Submarine Armada",
+		"unitType": "Submarine",
+		"movement": 5,
+		"strength": 52,
+		"rangedStrength": 77,
+		"cost": 1056,
+		"requiredTech": "Refrigeration",
+		"upgradesTo": "Nuclear Submarine Armada",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Carrier Fleet",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 50,
+		"cost": 937,
+		"requiredTech": "Electronics",
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
+	},
+	{
+		"name": "Carrier Armada",
+		"unitType": "Aircraft Carrier",
+		"movement": 5,
+		"strength": 57,
+		"cost": 1218,
+		"requiredTech": "Electronics",
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
+	},
+	{
+		"name": "Battleship Fleet",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 65,
+		"rangedStrength": 65,
+		"range": 3,
+		"cost": 937,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+		// Does not actually upgrade to Missile Cruisers
+	},
+	{
+		"name": "Battleship Armada",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 72,
+		"rangedStrength": 72,
+		"range": 3,
+		"cost": 1218,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+		// Does not actually upgrade to Missile Cruisers
+	},
+	{
+		"name": "Nuclear Submarine Fleet",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 60,
+		"range": 3,
+		"rangedStrength": 95,
+		"cost": 1062,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Nuclear Submarine Armada",
+		"unitType": "Submarine",
+		"movement": 6,
+		"strength": 67,
+		"range": 3,
+		"rangedStrength": 102,
+		"cost": 1381,
+		"requiredTech": "Telecommunications",
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Missile Cruiser Fleet",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 90,
+		"rangedStrength": 110,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 1062,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Missile Cruiser Armada",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 97,
+		"rangedStrength": 117,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 1381,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	}
+]
