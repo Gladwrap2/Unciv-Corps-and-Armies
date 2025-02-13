@@ -544,9 +544,8 @@
 		"strength": 35,
 		"cost": 375,
 		"requiredTech": "Navigation",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Destroyer Fleet",
-		"promotions": ["Coastal Raider I", "[Privateer] ability"],
+		"promotions": ["Requires [Seaport]", "Coastal Raider I", "[Privateer] ability"],
 		"attackSound": "cannon"
 	},
 	{
