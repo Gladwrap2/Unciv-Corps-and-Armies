@@ -7,8 +7,8 @@
 		"cost": 562,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Great War Infantry Corps",
+		"uniques": ["Only available in cities with a [Military Academy]"],
 		"attackSound": "shot"
 	},
 	{
@@ -21,9 +21,9 @@
 		"cost": 562,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Great War Infantry Corps",
 		"promotions": ["[Norwegian Ski Infantry] ability"],
+		"uniques": ["Only available in cities with a [Military Academy]"],
 		"attackSound": "shot"
 	},
 	{
@@ -36,9 +36,9 @@
 		"cost": 562,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-   		 "requiredBuilding": "Military Academy",
 		"upgradesTo": "Great War Infantry Corps",
 		"promotions": ["March"],
+		"uniques": ["Only available in cities with a [Military Academy]"],
 		"attackSound": "shot"
 	},
 	{
@@ -51,9 +51,9 @@
 		"cost": 500,
 		"requiredTech": "Rifling",
 		"obsoleteTech": "Replaceable Parts",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Great War Infantry Corps",
 		"promotions": ["Drill I","Home Sweet Home"],
+		"uniques": ["Only available in cities with a [Military Academy]"],
 		"attackSound": "shot"
 	},
 	{
@@ -65,9 +65,9 @@
 		"rangedStrength": 40,
 		"cost": 562,
 		"requiredTech": "Industrialization",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Machine Gun Corps",
 		"obsoleteTech": "Ballistics",
+		"uniques": ["Only available in cities with a [Military Academy]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -78,10 +78,9 @@
 		"cost": 562,
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
-    		"requiredBuilding": "Military Academy",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship Corps",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"attackSound": "horse"
 	},
 	{
@@ -94,10 +93,9 @@
 		"cost": 562,
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
-    		"requiredBuilding": "Military Academy",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship Corps",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Only available in cities with a [Military Academy]"],
 		"promotions": ["[Cossack] ability"],
 		"attackSound": "horse"
 	},
@@ -111,11 +109,10 @@
 		"cost": 562,
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
-    		"requiredBuilding": "Military Academy",
 		"requiredResource": "Horses",
 		"upgradesTo": "Landship Corps",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>",
-			"[+1] Sight"],
+			"[+1] Sight", "Only available in cities with a [Military Academy]"],
 		"promotions": ["[Hussar] ability"],
 		"attackSound": "horse"
 	},
@@ -128,10 +125,9 @@
 		"range": 3,
 		"cost": 800,
 		"requiredTech": "Dynamite",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Rocket Artillery Corps",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -144,10 +140,9 @@
 		"range": 3,
 		"cost": 1040,
 		"requiredTech": "Dynamite",
-    		"requiredBuilding": "Military Base",
 		"upgradesTo": "Rocket Artillery Army",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit", "Only available in cities with a [Military Base]"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -158,9 +153,9 @@
 		"strength": 60,
 		"cost": 800,
 		"requiredTech": "Replaceable Parts",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Infantry Corps",
 		"obsoleteTech": "Plastics",
+		"uniques": ["Only available in cities with a [Military Academy]"],
 		"attackSound": "shot"
 	},
 	{
@@ -172,10 +167,9 @@
 		"strength": 60,
 		"cost": 800,
 		"requiredTech": "Replaceable Parts",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Infantry Corps",
 		"obsoleteTech": "Plastics",
-		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"],
+		"uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Only available in cities with a [Military Academy]"],
 		"attackSound": "shot"
 	},
 	{
@@ -185,9 +179,9 @@
 		"strength": 80,
 		"cost": 937,
 		"requiredTech": "Plastics",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Mechanized Infantry Corps",
 		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Only available in cities with a [Military Academy]"],
 		"attackSound": "shot"
 	},
 	{
@@ -199,8 +193,8 @@
 		"rangedStrength": 70,
 		"cost": 875,
 		"requiredTech": "Ballistics",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Mechanized Infantry Corps",
+		"uniques": ["Only available in cities with a [Military Academy]"],
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
 	},
@@ -212,10 +206,9 @@
 		"strength": 60,
 		"cost": 937,
 		"requiredTech": "Ballistics",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Mobile SAM Corps",
 		"obsoleteTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -225,11 +218,10 @@
 		"strength": 70,
 		"cost": 875,
 		"requiredTech": "Combustion",
-    		"requiredBuilding": "Military Academy",
 		"requiredResource": "Oil",
 		"upgradesTo": "Tank Corps",
 		"obsoleteTech": "Combined Arms",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -239,9 +231,8 @@
 		"strength": 75,
 		"cost": 1000,
 		"requiredTech": "Pharmaceuticals",
-    		"requiredBuilding": "Military Academy",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "Only available in cities with a [Military Academy]"],
 		"attackSound": "shot"
 	},
 	{
@@ -251,9 +242,8 @@
 		"strength": 82,
 		"cost": 1300,
 		"requiredTech": "Pharmaceuticals",
-    		"requiredBuilding": "Military Base",
 		"promotions": ["Amphibious"],
-		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>", "Only available in cities with a [Military Base]"],
 		"attackSound": "shot"
 	},
 	{
@@ -263,10 +253,9 @@
 		"strength": 80,
 		"cost": 937,
 		"requiredTech": "Combined Arms",
-    		"requiredBuilding": "Military Academy",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor Corps",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -276,10 +265,9 @@
 		"strength": 87,
 		"cost": 1218,
 		"requiredTech": "Combined Arms",
-    		"requiredBuilding": "Military Base",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor Army",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit", "Only available in cities with a [Military Base]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -291,10 +279,9 @@
 		"strength": 90,
 		"cost": 937,
 		"requiredTech": "Combined Arms",
-    		"requiredBuilding": "Military Academy",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor Corps",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Only available in cities with a [Military Academy]"],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank
 	},
@@ -307,10 +294,9 @@
 		"strength": 97,
 		"cost": 1218,
 		"requiredTech": "Combined Arms",
-    		"requiredBuilding": "Military Base",
 		"requiredResource": "Oil",
 		"upgradesTo": "Modern Armor Army",
-		"uniques": ["Can move after attacking","No defensive terrain bonus"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Only available in cities with a [Military Base]"],
 		"attackSound": "tankshot"
 		//German unique unit, stronger than Tank
 	},
@@ -321,9 +307,8 @@
 		"strength": 60,
 		"cost": 750,
 		"requiredTech": "Combined Arms",
-    		"requiredBuilding": "Military Academy",
 		"upgradesTo": "Helicopter Gunship Corps",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -333,9 +318,8 @@
 		"strength": 67,
 		"cost": 975,
 		"requiredTech": "Combined Arms",
-    		"requiredBuilding": "Military Base",
 		"upgradesTo": "Helicopter Gunship Army",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit", "Only available in cities with a [Military Base]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -347,10 +331,9 @@
 		"strength": 70,
 		"cost": 1062,
 		"requiredTech": "Computers",
-    		"requiredBuilding": "Military Academy",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -362,10 +345,9 @@
 		"strength": 77,
 		"cost": 1381,
 		"requiredTech": "Computers",
-    		"requiredBuilding": "Military Base",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Only available in cities with a [Military Base]"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -377,10 +359,9 @@
 		"range": 3,
 		"cost": 1062,
 		"requiredTech": "Rocketry",
-    		"requiredBuilding": "Military Academy",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"[-1] Sight", "Never appears as a Barbarian unit"],
+			"[-1] Sight", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -393,10 +374,9 @@
 		"range": 3,
 		"cost": 1381,
 		"requiredTech": "Rocketry",
-    		"requiredBuilding": "Military Base",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"[-1] Sight", "Never appears as a Barbarian unit"],
+			"[-1] Sight", "Never appears as a Barbarian unit", "Only available in cities with a [Military Base]"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
@@ -408,9 +388,8 @@
 		"strength": 75,
 		"cost": 1062,
 		"requiredTech": "Rocketry",
-    		"requiredBuilding": "Military Academy",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"attackSound": "missile"
 	},
 	{
@@ -421,9 +400,8 @@
 		"strength": 82,
 		"cost": 1381,
 		"requiredTech": "Rocketry",
-    		"requiredBuilding": "Military Base",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
+			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit", "Only available in cities with a [Military Base]"],
 		"attackSound": "missile"
 	},
 	{
@@ -433,8 +411,7 @@
 		"strength": 100,
 		"cost": 937,
 		"requiredTech": "Mobile Tactics",
-    		"requiredBuilding": "Military Academy",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -444,8 +421,7 @@
 		"strength": 107,
 		"cost": 1218,
 		"requiredTech": "Mobile Tactics",
-    		"requiredBuilding": "Military Base",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Only available in cities with a [Military Base]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -455,10 +431,9 @@
 		"strength": 110,
 		"cost": 1062,
 		"requiredTech": "Lasers",
-    		"requiredBuilding": "Military Academy",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only available in cities with a [Military Academy]"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -468,10 +443,9 @@
 		"strength": 117,
 		"cost": 1381,
 		"requiredTech": "Lasers",
-    		"requiredBuilding": "Military Base",
 		"requiredResource": "Aluminum",
 		"upgradesTo": "Giant Death Robot",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Only available in cities with a [Military Base]"],
 		"attackSound": "tankshot"
 	},
 
@@ -484,10 +458,9 @@
 		"strength": 30,
 		"cost": 300,
 		"requiredTech": "Astronomy",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Ironclad Fleet",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Only available in cities with a [Seaport]"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -498,10 +471,9 @@
 		"strength": 37,
 		"cost": 390,
 		"requiredTech": "Astronomy",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Ironclad Armada",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>", "Only available in cities with a [Seaport]"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -514,10 +486,9 @@
 		"strength": 46,
 		"cost": 300,
 		"requiredTech": "Astronomy",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Ironclad Fleet",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles", "Only available in cities with a [Seaport]"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -530,10 +501,9 @@
 		"strength": 53,
 		"cost": 390,
 		"requiredTech": "Astronomy",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Ironclad Armada",
 		"obsoleteTech": "Combustion",
-		"uniques": ["Cannot enter ocean tiles"],
+		"uniques": ["Cannot enter ocean tiles", "Only available in cities with a [Seaport]"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
 	},
@@ -546,6 +516,7 @@
 		"requiredTech": "Navigation",
 		"upgradesTo": "Destroyer Fleet",
 		"promotions": ["Requires [Seaport]", "Coastal Raider I", "[Privateer] ability"],
+		"uniques": ["Only available in cities with a [Seaport]"],
 		"attackSound": "cannon"
 	},
 	{
@@ -555,9 +526,9 @@
 		"strength": 42,
 		"cost": 487,
 		"requiredTech": "Navigation",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Destroyer Armada",
 		"promotions": ["Coastal Raider I", "[Privateer] ability"],
+		"uniques": ["Only available in cities with a [Seaport]"],
 		"attackSound": "cannon"
 	},
 	{
@@ -569,9 +540,9 @@
 		"strength": 35,
 		"cost": 375,
 		"requiredTech": "Navigation",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Destroyer Fleet",
 		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply", "[Privateer] ability"],
+		"uniques": ["Only available in cities with a [Seaport]"],
 		"attackSound": "cannon"
 	},
 	{
@@ -583,9 +554,9 @@
 		"strength": 42,
 		"cost": 487,
 		"requiredTech": "Navigation",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Destroyer Armada",
 		"promotions": ["Coastal Raider I", "Coastal Raider II", "Supply", "[Privateer] ability"],
+		"uniques": ["Only available in cities with a [Seaport]"],
 		"attackSound": "cannon"
 	},
 	{
@@ -597,9 +568,9 @@
 		"cost": 462,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
-		"requiredBuilding": "Seaport",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship Fleet",
+		"uniques": ["Only available in cities with a [Seaport]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -612,9 +583,9 @@
 		"cost": 601,
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
-		"requiredBuilding": "Seaport",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship Armada",
+		"uniques": ["Only available in cities with a [Seaport]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -630,9 +601,9 @@
 		"requiredResource": "Iron",
 		"uniques": ["[+1] Sight"],
 		"requiredTech": "Navigation",
-		"requiredBuilding": "Seaport",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship Fleet",
+		"uniques": ["Only available in cities with a [Seaport]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -648,9 +619,9 @@
 		"requiredResource": "Iron",
 		"uniques": ["[+1] Sight"],
 		"requiredTech": "Navigation",
-		"requiredBuilding": "Seaport",
 		"obsoleteTech": "Electronics",
 		"upgradesTo": "Battleship Armada",
+		"uniques": ["Only available in cities with a [Seaport]"],
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -661,11 +632,10 @@
 		"strength": 55,
 		"cost": 625,
 		"requiredTech": "Steam Power",
-		"requiredBuilding": "Seaport",
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer Fleet",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -675,11 +645,10 @@
 		"strength": 62,
 		"cost": 812,
 		"requiredTech": "Steam Power",
-		"requiredBuilding": "Seaport",
 		"requiredResource": "Coal",
 		"upgradesTo": "Destroyer Armada",
 		"obsoleteTech": "Combustion",
-		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -690,9 +659,8 @@
 		"rangedStrength": 70,
 		"cost": 812,
 		"requiredTech": "Refrigeration",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Nuclear Submarine Fleet",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -703,9 +671,8 @@
 		"rangedStrength": 77,
 		"cost": 1056,
 		"requiredTech": "Refrigeration",
-		"requiredBuilding": "Seaport",
 		"upgradesTo": "Nuclear Submarine Armada",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -716,9 +683,8 @@
 		"interceptRange": 2,
 		"cost": 937,
 		"requiredTech": "Combustion",
-		"requiredBuilding": "Seaport",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
-			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>", "Only available in cities with a [Seaport]"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -729,9 +695,8 @@
 		"interceptRange": 2,
 		"cost": 1218,
 		"requiredTech": "Combustion",
-		"requiredBuilding": "Seaport",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
-			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>", "Only available in cities with a [Seaport]"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -741,8 +706,7 @@
 		"strength": 50,
 		"cost": 937,
 		"requiredTech": "Electronics",
-		"requiredBuilding": "Seaport",
-		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Only available in cities with a [Seaport]"]
 	},
 	{
 		"name": "Carrier Armada",
@@ -751,8 +715,7 @@
 		"strength": 57,
 		"cost": 1218,
 		"requiredTech": "Electronics",
-		"requiredBuilding": "Seaport",
-		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
+		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units", "Only available in cities with a [Seaport]"]
 	},
 	{
 		"name": "Battleship Fleet",
@@ -764,8 +727,7 @@
 		"cost": 937,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
-		"requiredBuilding": "Seaport",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 		// Does not actually upgrade to Missile Cruisers
@@ -780,8 +742,7 @@
 		"cost": 1218,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
-		"requiredBuilding": "Seaport",
-		"uniques": ["Never appears as a Barbarian unit"],
+		"uniques": ["Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 		// Does not actually upgrade to Missile Cruisers
@@ -795,8 +756,7 @@
 		"rangedStrength": 95,
 		"cost": 1062,
 		"requiredTech": "Telecommunications",
-		"requiredBuilding": "Seaport",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -808,8 +768,7 @@
 		"rangedStrength": 102,
 		"cost": 1381,
 		"requiredTech": "Telecommunications",
-		"requiredBuilding": "Seaport",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
+		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -822,9 +781,8 @@
 		"interceptRange": 2,
 		"cost": 1062,
 		"requiredTech": "Robotics",
-		"requiredBuilding": "Seaport",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -838,9 +796,8 @@
 		"interceptRange": 2,
 		"cost": 1381,
 		"requiredTech": "Robotics",
-		"requiredBuilding": "Seaport",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit", "Only available in cities with a [Seaport]"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	}
