@@ -710,6 +710,32 @@
 		"attackSound": "torpedo"
 	},
 	{
+		"name": "Destroyer Fleet",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 65,
+		"interceptRange": 2,
+		"cost": 937,
+		"requiredTech": "Combustion",
+		"requiredBuilding": "Seaport",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Destroyer Armada",
+		"unitType": "Melee Water",
+		"movement": 6,
+		"strength": 72,
+		"interceptRange": 2,
+		"cost": 1218,
+		"requiredTech": "Combustion",
+		"requiredBuilding": "Seaport",
+		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
+		"attackSound": "shipguns"
+	},
+	{
 		"name": "Carrier Fleet",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
